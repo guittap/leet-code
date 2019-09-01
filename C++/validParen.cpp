@@ -22,6 +22,10 @@ public:
             }
         }
 
+        if (c.size() > 0) {
+            return false;
+        }
+
         return true;
     }
     
